@@ -29,12 +29,11 @@
 }
 .rc-slider-handle {
   position: absolute;
-  margin-left: -7px;
-  margin-top: -5px;
   width: 14px;
   height: 14px;
   cursor: pointer;
   cursor: -webkit-grab;
+  margin-top: -5px;
   cursor: grab;
   border-radius: 50%;
   border: solid 2px #96dbfa;
@@ -132,7 +131,6 @@
 }
 .rc-slider-vertical .rc-slider-handle {
   margin-left: -5px;
-  margin-bottom: -7px;
   -ms-touch-action: pan-y;
       touch-action: pan-y;
 }
@@ -253,4 +251,4 @@
   border-top-color: #6c6c6c;
 }
 
-/*# sourceMappingURL=marks.css.map*/
+/*# sourceMappingURL=common.css.map*/

@@ -34254,7 +34254,7 @@ var Marks = function Marks(_ref) {
     var leftStyle = _defineProperty({
       transform: 'translateX(-50%)',
       msTransform: 'translateX(-50%)'
-    }, reverse ? 'right' : 'left', (point - min) / range * 100 + '%');
+    }, reverse ? 'right' : 'left', reverse ? (point - min / 4) / range * 100 + '%' : (point - min) / range * 100 + '%');
 
     var style = vertical ? bottomStyle : leftStyle;
     var markStyle = markPointIsObject ? _extends({}, style, markPoint.style) : style;
